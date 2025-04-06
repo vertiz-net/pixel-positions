@@ -6,7 +6,7 @@
     <title>Pixel Positions</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-black text-white">
+<body class="bg-black text-white font-hanken-grotesk">
     <div class="px-10">
         <nav class="flex justify-between items-center py-4 border-b border-white/10">
             <div>
@@ -14,7 +14,7 @@
                     <img src="{{ Vite::asset('resources/images/logo.svg') }}" alt="">
                 </a>
             </div>
-            <div class="space-x-6 font-bold">
+            <div class="space-x-6 font-semibold">
                 <a href="#">Jobs</a>
                 <a href="#">Careers</a>
                 <a href="#">Salaries</a>
