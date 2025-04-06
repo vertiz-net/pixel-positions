@@ -19,7 +19,7 @@ class EmployerFactory extends Factory
     {
         return [
             'name' => fake()->company(),
-            'logo' => fake()->imageUrl(100, 100, 'business', true),
+            'logo' => 'https://picsum.photos/seed/100/100',
             'user_id' => User::factory()
         ];
     }
